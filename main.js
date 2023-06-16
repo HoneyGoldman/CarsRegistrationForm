@@ -26,7 +26,8 @@ $(document).ready(function () {
                   '<div class="col-sm-3" style="padding-bottom:15px;">' +
                   '<div class="card">' +
                   '<img src="user.png" class="card-img-top" alt="' + user.name + '">' +
-                  '<div class="card-body">' +
+                  '<hr class=hr>' +
+                  '<div class="card-body">' +                  
                   '<h5 class="card-title">' + user.name + ', ' + user.age + '</h5>' +
                   '<p class="card-text">' + user.email + '</p>' +
                   '</div>' + '</div>' + '</div>'
